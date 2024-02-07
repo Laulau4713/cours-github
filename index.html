@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!--titre de la page-->
+  <title>HTML Cours</title>
+  <!--Icone de l'onglet-->
+  <link rel="shortcut icon" href="logo html5.png">
+</head>
+
+<body>
+  <header>
+    <h1>texte-titre h1</h1>
+    <p>texte basique de paragraphe. <em>Voici un texte en italique</em>.
+      <strong> Et un texte en gras</strong>. <span>L'élement span ne revient pas à la ligne</span>. </div>
+    </p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vel, magni. Alias id, voluptatibus blanditiis error
+      similique neque ducimus vel, eaque, ullam laudantium ipsa quod omnis quos! Ea et soluta dolorem.</p>
+  </header>
+
+  <section>
+    <div>
+      <h2>-Bonjour la famille-titre-h2-</h2>
+      <img src="merry christmas.jpeg" height="300" alt="image merry christmas">
+      <p><em><strong>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum odio aut dolorum sint quam
+            accusantium incidunt saepe minima, in laboriosam voluptate nulla voluptatibus corrupti repudiandae labore,
+            iusto quo nisi accusamus!</strong></em></p>
+    </div>
+    <div>
+
+      <h3>-les listes-titre -h3-</h3>
+      <ul>
+        <li> UL= unordered list</li>
+        <li> UL= unordered list</li>
+        <li> chouquette récite sa poésie</li>
+        <li> gunta écoute sa soeur réciter sa poésie</li>
+      </ul>
+      <ol>
+        <li> OL= ordered list</li>
+        <li> OL= ordered list</li>
+        <li> OL= ordered list</li>
+        <li> OL= ordered list</li>
+      </ol>
+    </div>
+    <div>
+
+      <h4>-tableau-titre-h4-</h4>
+      <table border="1" width="50%">
+        <!--légende-->
+        <caption>Population d'Europe</caption>
+        <!--en tête-->
+        <thead>
+          <tr>
+            <th>Pays</th>
+            <th>Population </th>
+          </tr>
+        </thead>
+        <!--corps de tableau-->
+        <tbody>
+          <td>France</td>
+          <td>66M</td>
+        </tbody>
+        <tbody>
+          <td>Allemagne</td>
+          <td>87M</td>
+        </tbody>
+        <tbody>
+          <td>Espagne</td>
+          <td>47M</td>
+        </tbody>
+      </table>
+    </div>
+
+    <h5><span>&#9734;</span>-lien-titre-h5-</h5>
+    <a href="https://htmlcheatsheet.com/" target="_blank">HTML Cheat Sheet</a>
+    <br>
+    <a href="https://www.toptal.com/designers/htmlarrows/symbols " target="_blank">Symboles HTML</a>
+    </div>
+
+    <h6>-vidéo-titre-h6-</h6>
+    <video src="nature.mp4" height="250" autoplay loop muted></video>
+    </div>
+  </section>
+  <br>
+  <section>
+<!--formulaire-->
+
+    <h2>Formulaire</h2>
+
+    <form action="/action.php" method="post">
+      <label for="name">Nom </label>
+      <input id="name" type="text" placeholder="Entrez votre nom"><br>
+      <label for="Prénom">Prénom </label>
+      <input id="Prénom" type="text" placeholder="Entrez votre prénom"><br>
+      <label for="age">Age</label>
+      <input id="age" type="number" min="0" max="99" step="1" value="18"><br>
+      <!--input select-->
+      <label for="gender">Genre</label>
+     <select id="gender">
+        <option value="homme">homme</option>
+        <option selected value="femme">femme</option>
+     </select>
+     <!--input radio-->
+     <div>
+<input type="radio" name="type" id="human">
+<label for="human">humain</label>
+
+<input type="radio" name="type" id="dog">
+<label for="dog">chien</label>
+
+<input type="radio" name="type" id="cat">
+<label for="cat">chat</label>
+     </div>
+     <textarea cols="30" rows="10" placeholder="Entrez votre demande ici"></textarea><br>
+    </form>
+  </section>
+</body>
+
+</html>
